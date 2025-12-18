@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <title>Random numbers</title>
+</head>
+
+<body>
+    <p id="number"></p>
+    <script>
+        var text = ""
+        var i = 0;
+        while (i < 100) {
+            var a = Math.random();
+            text += "<br>The number is: " + a;
+            i++;
+        }
+        document.getElementById("number").innerHTML = text;
+    </script>
+</body>
+
+</html>
